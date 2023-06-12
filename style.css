@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(25, 80, 97));
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#canvas_div {
+    margin: 3rem;
+}
+canvas {
+    border: 2px solid rgb(69, 98, 107);
+}
+h2, h3, a {
+    color: #10d4db86;
+    padding-bottom: 1rem;
+}
+h1 {
+    color: rgb(11, 255, 255);
+}
+#controls, p {
+    color: rgb(119, 119, 119);
+}
